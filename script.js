@@ -6,37 +6,37 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Enquanto Sauda caminhava pela floresta, encontrou um jardim escondido entre as árvores vale abaixo e cercado por janelas e apenas uma abertura e se perguntou se entraria ou não no jardim.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Entrar",
+                afirmacao: "Sem pensar muito, pulou de onde estava até a abertura, a qual logo após sua entrada se arrastou, prendendo-a onde estava, mas abrindo brechas em outro lugar. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Deixar para lá",
+                afirmacao: "Sauda tenta dar meia volta, mas por descuido acaba escorregando de onde estava. Imediatamente, a janela abaixo de onde caía se abre e, ao entrar, se fecha novamente."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Fechada no jardim, Sauda busca uma saída, a qual não encontra com dificuldade, mas de repente... os balões aparecem novamente! Não há outra escolha a não ser usar suas espadas para estourá-los. Sauda aguenta muito bem os primeiros exércitos de balões, mas na 28° horda algo inesperado acontece: balões metálicos aparecem. O que Sauda faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Chama pelo macaco do submarino.",
+                afirmacao: "Após um grito, emerge de um lago dentro do jardim um macaco com um submarino, que facilmente explode a camada metálica destes balões com seu poderoso lança-misseis "
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Chama pelo macaco canhoneiro.",
+                afirmacao: "Diante de um chamado, o macaco cahoneiro surge... do além?! Enfim, com suas poderosas bombas, ele decima os balões, trabalho fácil."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "",
+                afirmacao: ""
             },
             {
                 texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
