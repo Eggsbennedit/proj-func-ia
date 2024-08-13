@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Entrar",
-                afirmacao: "Sem pensar muito, pulou de onde estava até a abertura, a qual logo após sua entrada se arrastou, prendendo-a onde estava, mas abrindo brechas em outro lugar. "
+                afirmacao: "Ao encontrar um jardi e sem pensar muito, pulou de onde estava até a abertura, a qual logo após sua entrada se arrastou, prendendo-a onde estava, mas abrindo brechas em outro lugar. "
             },
             {
                 texto: "Deixar para lá",
-                afirmacao: "Sauda tenta dar meia volta, mas por descuido acaba escorregando de onde estava. Imediatamente, a janela abaixo de onde caía se abre e, ao entrar, se fecha novamente."
+                afirmacao: "Ao encontrar um jardim, Sauda tenta dar meia volta, mas por descuido acaba escorregando de onde estava. Imediatamente, a janela abaixo de onde caía se abre e, ao entrar, se fecha novamente."
             }
         ]
     },
@@ -32,44 +32,27 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Com a ajuda do novo macaco, a camada de metal dos balões metálicos é estourada, deixando para trás apenas balões que Sauda daria conta. Tudo prossegue bem, até a 36° horda, quando inúmeras hordas de balões rosas super dentas aparecem. O que fazer?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Usa uma habilidade da Sauda",
+                afirmacao: "Sauda, para barrar o progresso dos balões, joga suas duas espadas no caminho, estourando tudo o que passe por elas."
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Melhorar o macaco escolhido",
+                afirmacao: "O macaco escolhido tem uma ascenção e agora... dispara mísseis ao invés de seu antigo equipamento."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "A última horda chega... os balões resolvem lançar seu último ataque, o que chamam de MOAB: Massive Ordinary Air Blimp (Dirigível Aéreo Trivial Massivo). Quando nada parece ter salvação, Ele aparece...",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
-            },
-            {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Observar ",
+                afirmacao: "O Super Macaco aparece e, canalizando o poder do Sol, dizima em um instante os últimos balões, limpando a área. Não há mais baloes, agora todos podem ir para casa sem o que temer."
             }
         ]
-    },
-    {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
-        alternativas: [
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            }
-        ]
-    },
+    }
 ];
 
 let atual = 0;
@@ -104,7 +87,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em uma floresta...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
